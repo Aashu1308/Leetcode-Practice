@@ -1,0 +1,8 @@
+# Ignore compiled files directory
+compiled/
+
+# Ignore VS Code configuration directory
+.vscode/
+
+# Ignore debugging symbols directory
+squared_sorted_array.dSYM/
