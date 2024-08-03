@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++ build active file",
+      "command": "/usr/bin/g++",
+      "args": [
+        "-std=c++17",           // Use C++17 standard
+        "-fcolor-diagnostics",  // Enable colored diagnostics
+        "-fansi-escape-codes", // Enable ANSI escape codes
+        "-g",                  // Generate debug information
+        "${file}",             // The source file to compile
+        "-o",                  // Output file
+        "${fileDirname}/${fileBasenameNoExtension}" // Output path
+      ],
+      "options": {
+        "cwd": "${fileDirname}",
+        "env": {
+          "PATH": "/usr/local/bin:${env:PATH}" // Ensure correct environment paths
+        }
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Build C++ file with g++ using C++17 standard"
+    }
+  ]
+}
