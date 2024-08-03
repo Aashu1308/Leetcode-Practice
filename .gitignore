@@ -6,3 +6,5 @@ compiled/
 
 # Ignore debugging symbols directory
 squared_sorted_array.dSYM/
+
+.DS_Store
