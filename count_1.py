@@ -12,3 +12,7 @@ class Solution:
             i *= 10
 
         return c
+
+
+s = Solution()
+print(s.countDigitOne(13))
