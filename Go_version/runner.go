@@ -16,4 +16,5 @@ func main() {
 	fmt.Println("Single non repeated number in [2,2,1] is: ", leetcode.SingleNumber([]int{2, 2, 1}))
 	fmt.Println("Output of merging the two arrays [[1,2],[2,3],[4,5]] and [[1,4],[3,2],[4,1]] is: ", leetcode.MergeArrays([][]int{{1, 2}, {2, 3}, {4, 5}}, [][]int{{1, 4}, {3, 2}, {4, 1}}))
 	fmt.Println("Result of sorting array [9,12,5,10,14,3,10] around pivot 10 is: ", leetcode.PivotArray([]int{9, 12, 5, 10, 14, 3, 10}, 10))
+	fmt.Println("Is it possible to represent 91 as the sum of distinct powers of 3: ", leetcode.CheckPowersOfThree(91))
 }
